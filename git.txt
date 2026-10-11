@@ -1,51 +1,53 @@
 git --version
+==================================================
 git init
 git status
-
+==================================================
 git add .
 git add <file>
-
+==================================================
 git commit -m "<message>"
 git commit -am "<message>"
-
+==================================================
 q
+==================================================
 git log
 git log -<3>
 git log -- <file>
 git log --all --decorate --oneline --graph
-
+==================================================
 git checkout <hash>
 git checkout <branch>
 git checkout <hash> -- <file>
-
+==================================================
 git branch
 git branch <name>
 git branch --merged
 git branch -d <branch>
 git branch -D <branch>
 git branch -M <branch>
-
+==================================================
 git merge <branch>
 git merge <alias/branch>
-
+==================================================
 git config --list
 git config --global --list
 git config --global user.name "<name>"
 git config --global user.email "<email>"
 git config --global alias.graph "<command>"
-
+==================================================
 git clone <link>
-
+==================================================
 git remote
 git remove -v
 git remote add <alias> <link>
-
+==================================================
 git push
 git push <alias> <branch>
 git push -u <alias> <branch>
 git push <alias> --delete <branch>
-
+==================================================
 git fetch
 git fetch <alias>
-
+==================================================
 git pull --no-rebase
