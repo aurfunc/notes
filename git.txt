@@ -40,7 +40,7 @@ git config --global alias.graph "<command>"
 git clone <link>
 ==================================================
 git remote
-git remove -v
+git remote -v
 git remote add <alias> <link>
 ==================================================
 git push
