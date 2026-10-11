@@ -19,6 +19,7 @@ git log --all --decorate --oneline --graph
 ==================================================
 git checkout <hash>
 git checkout <branch>
+git checkout -b <branch>
 git checkout <hash> -- <file>
 ==================================================
 git branch
@@ -51,4 +52,7 @@ git push <alias> --delete <branch>
 git fetch
 git fetch <alias>
 ==================================================
+git pull
 git pull --no-rebase
+==================================================
+git rebase <branch>
