@@ -1,14 +1,11 @@
 sudo service mysql start
+sudo service mysql status
 sudo mysql
 ==================================================
 EXIT;
 ==================================================
 mysql --version
 ==================================================
-CREATE USER 'aur'@'localhost'
-IDENTIFIED BY '161016';
+CREATE USER '<name>'@'localhost' IDENTIFIED BY '<password>';
 ==================================================
-GRANT ALL PRIVILEGES ON study.*
-TO 'aur'@'localhost';
-==================================================
-SHOW DATABASES;
+GRANT ALL PRIVILEGES ON <name>.* TO '<name>'@'localhost';
