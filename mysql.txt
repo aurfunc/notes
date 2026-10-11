@@ -1,1 +1,14 @@
+sudo service mysql start
+sudo mysql
+==================================================
+EXIT;
+==================================================
 mysql --version
+==================================================
+CREATE USER 'aur'@'localhost'
+IDENTIFIED BY '161016';
+==================================================
+GRANT ALL PRIVILEGES ON study.*
+TO 'aur'@'localhost';
+==================================================
+SHOW DATABASES;
